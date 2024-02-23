@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+class Main {
 
 	public static Scanner scanner = new Scanner(System.in);
 
@@ -68,7 +68,7 @@ public class Main {
  * Theatre theatre = new Theatre("robin", 5, 5); theatre.getSeat();
  * theatre.reserve_seats("A00"); //theatre.reserve_seats("A00");
  */
-public class Seat {
+class Seat {
 	
 	private final String seat_number;
 	private boolean reserved = false;
@@ -114,7 +114,7 @@ public class Seat {
 
 }
 
-public class Theatre {
+class Theatre {
 	
     private final String name;
     private ArrayList<Seat> seats = new ArrayList<>();
